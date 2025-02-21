@@ -118,14 +118,14 @@ article ul, #about ul{
     padding-left: 35px;
     text-align:centre;
 }
-article img, 
-article video {
+article img, article video {
     display: block; 
     margin: 20px auto;
     max-width: 100%;
     border-radius: 15px;
     object-fit: fill;
 }
+
 .blog2_subhead,h4{
     font-size: 19px;
     padding: 4px 0px 2px 2px;
@@ -138,7 +138,7 @@ article video {
   border-radius: 10px;
   box-shadow: 0px 0px 4px 1px #938989;
 }
-#about:hover{
+#about:hover ,article img:hover , article video:hover{
     box-shadow: 0px 0px 6px 2px #938989;
 }
 
